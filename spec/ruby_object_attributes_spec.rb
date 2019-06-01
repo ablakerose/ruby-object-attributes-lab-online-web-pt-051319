@@ -9,7 +9,7 @@ describe 'Dog' do
   context 'with names' do
     describe '#name=' do
       it 'writes the name of the dog to an instance variable @name' do
-        fido = Dog.new
+        fido = Dog.new(scooby)
         fido.name = "Fido"
 
         expect(fido.instance_variable_get(:@name)).to eq("Fido")
