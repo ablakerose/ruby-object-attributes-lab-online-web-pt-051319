@@ -8,7 +8,10 @@ class Person
     @name
   end
 
+  def job=(job_name)
   def job
     @job
   end
+
+  
 end
