@@ -1,14 +1,12 @@
 class Dog
-  attr_accessor :name, :breed
-
 
   def initialize(dog_name, dog_breed)
       @name = dog_name
       @breed = dog_breed
     end
 
-  def name=(dog_name)
-    @name = dog_name
+  def name=(dog_name_1)
+    @name = dog_name_1
   end
 
   def name
